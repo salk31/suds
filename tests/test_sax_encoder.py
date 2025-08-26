@@ -89,6 +89,7 @@ symmetric_decoded_encoded_test_data = [
     ("'", "&apos;"),
     ('"', "&quot;"),
     ("&", "&amp;"),
+    ("\r", "&#13"),
     # Mixed replacements.
     ("abcd&&<<", "abcd&amp;&amp;&lt;&lt;"),
     # Character reference lookalikes.
